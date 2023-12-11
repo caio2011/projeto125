@@ -1,0 +1,28 @@
+h1
+{
+    font-size:25px !important;
+}
+
+.btn-sucess:hover
+{
+    background-color: red;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
+
+body
+{
+    background-image: url('./wallpaper_projeto123_atualizado_2013_sem_virus.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
